@@ -59,6 +59,19 @@ const Header = () => {
               </span>
             </Link>
             <Link
+              href="live_maps.html"
+              className={
+                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "testimoni"
+                  ? " text-red-500 animation-active "
+                  : " text-black hover:text-red-500 ")
+              }
+            >
+              <span className="hover:text-red-600 cursor-pointer text-base">
+                LiveMap
+              </span>
+            </Link>
+            <Link
               href="/aichat"
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
@@ -66,7 +79,9 @@ const Header = () => {
                   ? " text-red-500 animation-active "
                   : " text-black hover:text-red-500 ")
               }
+              
             >
+
               <span className="hover:text-red-600 cursor-pointer text-base">
                 AI Chat
               </span>
@@ -84,6 +99,7 @@ const Header = () => {
                 HelpForm
               </span>
             </Link>
+            
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/auth/signin">
