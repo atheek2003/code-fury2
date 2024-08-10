@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ResQmate Disaster Management App</title>
+        <title>Help-Hive</title>
         <link
           rel="shortcut icon"
           href="https://user-images.githubusercontent.com/86917304/226326061-cd601c44-8c19-4f0c-bd57-53274374cd6c.png"
