@@ -1,0 +1,10 @@
+Download the disaster tweet corpus from here:
+
+https://zenodo.org/record/3713920#.ZB6X8XZBy3B
+
+For ease I am giving link to my curated dataset and also refer the ipnyb file to refer it and clean it
+
+Download Dataset - https://drive.google.com/file/d/1EIf29lWThwR69jTczNVI6XxcgT9_MQBU/view?usp=sharing
+
+
+
