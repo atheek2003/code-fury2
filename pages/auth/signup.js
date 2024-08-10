@@ -199,7 +199,7 @@ function signup() {
                     ></div>
                   </div>
                   <div className="text-gray-600 text-center mt-6">
-                    Already using ResQ?{" "}
+                    Already using Help-Hive?{" "}
                     <Link
                       href="signin"
                       className="text-blue-600 hover:underline transition duration-150 ease-in-out"

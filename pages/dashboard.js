@@ -281,7 +281,7 @@ const dashboard = () => {
               </a>
             </div>
             <p className="text-sm text-center text-gray-600">
-              © 2022 ResQmate.
+              © 2024 Help-Hive.
             </p>
             <div
               onClick={() => auth.signOut()}
