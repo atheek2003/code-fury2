@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-require("dotenv").config();
-const client = require("twilio")(process.env.SID, process.env.Auth);
+// require("dotenv").config();
+const client = require("twilio")("ACc66ef3fed50afd616b46223cc029cc19", "77d460002b8a8892f44656363595530c");
 
 app.use(cors());
 app.use(express.json());
@@ -12,7 +12,7 @@ function sendMessage(number, text) {
     .create({
       body: text,
       to: number,
-      from: "+15056753436",
+      from: "+18542467449",
     })
     .then((mes) => console.log(mes))
     .catch((err) => console.log(err));
