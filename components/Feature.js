@@ -40,7 +40,7 @@ const Feature = () => {
             variants={scrollAnimation}
           >
             <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black">
-              Relevant features of ResQ-Mate
+              Relevant features of Help-Hive
             </h3>
             <p className="my-2 text-black">
             Our sole aim is to ensure that everyone is safe and sound in case of any calamity.

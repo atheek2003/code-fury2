@@ -13,7 +13,7 @@ const Footer = () => {
             <Image src={LogoVPN} width={150} height={150} />
           </div>
           <div className="w-full flex justify-center items-center">
-            <p className="mb-4 text-center font-bold">ResQ-Mate</p>
+            <p className="mb-4 text-center font-bold">Help-Hive</p>
           </div>
           <div className="flex justify-center  w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center w-full">
             <p className="text-gray-400">
-              ©{new Date().getFullYear()} - ResQ.vercel.app
+              ©{new Date().getFullYear()} 
             </p>
           </div>
         </div>
