@@ -63,10 +63,10 @@ const Hero = ({
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black leading-normal">
-              Disaster Management with <strong>ResQ-Mate</strong>.
+              Disaster Management with <strong>Help-Hive</strong>.
             </h1>
             <p className="text-black mt-4 mb-6">
-              Disasters don't wait but with <strong>ResQ-Mate</strong>, you'll
+              Disasters don't wait but with <strong>Help-Hive</strong>, you'll
               always be one step ahead.
             </p>
             <div className="flex gap-x-3">
