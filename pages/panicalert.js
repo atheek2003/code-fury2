@@ -18,7 +18,7 @@ const panicalert = () => {
     e.preventDefault();
     console.log(formdata);
     try {
-      const res = await axios.post("http://localhost:5000", {
+      const res = await axios.post("https://code-fury-backend.vercel.app/", {
         num: formdata.number,
         text: formdata.text,
       });
