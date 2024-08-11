@@ -4,7 +4,14 @@ const cors = require("cors");
 // require("dotenv").config();
 const client = require("twilio")("ACc66ef3fed50afd616b46223cc029cc19", "77d460002b8a8892f44656363595530c");
 
-app.use(cors());
+// app.use(cors());
+
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(express.json());
 
 function sendMessage(number, text) {
@@ -38,6 +45,17 @@ app.post("/", (req, res) => {
   }
 });
 
-app.listen(5000, () => {
-  console.log("Started");
-});
+// app.listen(5000, () => {
+//   console.log("Started");
+// });
+
+
+// For local development
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(5000, () => {
+    console.log("Started on port 5000");
+  });
+}
+
+// Export the Express API
+module.exports = app;
