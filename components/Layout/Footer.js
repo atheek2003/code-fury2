@@ -85,7 +85,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import LogoVPN from "../../public/assets/logo.png";
+import LogoVPN from "../../public/assets/logo-removebg-preview.png";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
@@ -154,12 +154,12 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
           <p className="text-black mb-4 font-medium text-lg">Improve Us</p>
           <ul className="text-black">
-            <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Send Complaints
-            </li>
-            <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Send Queries
-            </li>
+          <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
+  <a href="mailto:helphive@gmail.com">Send Complaints</a>
+</li>
+<li className="my-2 hover:text-red-500 cursor-pointer transition-all">
+  <a href="mailto:helphive@gmail.com">Send Queries</a>
+</li>
           </ul>
         </div>
       </div>

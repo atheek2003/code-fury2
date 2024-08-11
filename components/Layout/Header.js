@@ -3,7 +3,7 @@ import Link from "next/link";
 // Import react scroll
 // import { Link as Link } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/logo.png";
+import LogoVPN from "../../public/assets/logo-removebg-preview.png";
 import Image from "next/image";
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white transition-all " +
+          "relative top-0 w-full  z-30 bg-white transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-0")
         }
       >

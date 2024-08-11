@@ -10,7 +10,7 @@ const defaultMeta = {
   description:
     'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
   // change base url of your web (without '/' at the end)
-  url: 'https://code-fury-steel.vercel.app',
+  url: 'https://code-fury-frontend.vercel.app',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
