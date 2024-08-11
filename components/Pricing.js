@@ -72,7 +72,7 @@ const Pricing = () => {
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-5">
-                  <ButtonOutline>Explore</ButtonOutline>
+                  {/* <ButtonOutline>Explore</ButtonOutline> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -113,7 +113,7 @@ const Pricing = () => {
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-5">
-                  <ButtonOutline>Explore</ButtonOutline>
+                  {/* <ButtonOutline>Explore</ButtonOutline> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -154,7 +154,7 @@ const Pricing = () => {
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-5">
-                  <ButtonOutline>Explore</ButtonOutline>
+                  {/* <ButtonOutline>Explore</ButtonOutline> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -191,20 +191,20 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
             >
-              Live Tweets{" "}
+              {/* Live Tweets{" "} */}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-              These are the lastest tweets regarding the help in disaster.
+              {/* These are the lastest tweets regarding the help in disaster. */}
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">
             <motion.div variants={scrollAnimation}>
               {/* <Testimoni /> */}
               <div className="flex justify-center">
-              <img src="https://www.ualberta.ca/psychiatry/media-library/images/misc-pic/under-development.jpg" />
+              {/* <img src="https://www.ualberta.ca/psychiatry/media-library/images/misc-pic/under-development.jpg" /> */}
               </div>
             </motion.div>
           </ScrollAnimationWrapper>
@@ -215,7 +215,7 @@ const Pricing = () => {
                   <h5 className="text-black text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
                     Register for <br /> Instant Critical Alerts!
                   </h5>
-                  <p>Let's join with us.</p>
+                  <p>Let's join together and help those in need!.</p>
                 </div>
                 <ButtonPrimary>
                   <Link href={"/registerNumber"}>Get Started</Link>

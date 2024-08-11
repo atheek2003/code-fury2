@@ -46,10 +46,10 @@ const Feature = () => {
             <p className="my-2 text-black">
             Our sole aim is to ensure that everyone is safe and sound in case of any calamity.
             </p>
-            <ul className="text-black self-start list-inside ml-8">
+            <ul className="text-black self-start list-inside ml-8 mt-16">
               {features.map((feature, index) => (
                 <motion.li
-                  className="relative circle-check custom-list"
+                  className="relative circle-check custom-list mb-4"
                   custom={{ duration: 2 + index }}
                   variants={scrollAnimation}
                   key={feature}

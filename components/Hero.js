@@ -78,8 +78,8 @@ const Hero = ({
               <div onClick={() => setVisible(true)}>
                 <ButtonPrimary>Urgent Help</ButtonPrimary>
               </div>
-              <a href="https://resqmate-nasa-maps.vercel.app/nasamap">
-                <ButtonPrimary>Nasa Pridiction</ButtonPrimary>
+              <a href="http://disastermaps.netlify.app/">
+                <ButtonPrimary>Nasa Predictions</ButtonPrimary>
               </a>
             </div>
           </div>
