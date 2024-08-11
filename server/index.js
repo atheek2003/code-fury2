@@ -61,14 +61,12 @@
 // module.exports = app;
 
 
-
 const express = require("express");
 const cors = require("cors");
 const twilio = require("twilio");
 
 const app = express();
 
-// Configure CORS
 app.use(cors({
   origin: '*',
   methods: ['GET', 'POST', 'OPTIONS'],
@@ -77,7 +75,6 @@ app.use(cors({
 
 app.use(express.json());
 
-// Initialize Twilio client
 const client = twilio("ACc66ef3fed50afd616b46223cc029cc19", "77d460002b8a8892f44656363595530c");
 
 function sendMessage(number, text) {
@@ -91,11 +88,11 @@ function sendMessage(number, text) {
     .catch((err) => console.log(err));
 }
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   res.send(`<h1>Hello From Backend</h1>`);
 });
 
-app.post("/api", async (req, res) => {
+app.post("/", async (req, res) => {
   try {
     const { num, text } = req.body;
     if (!num || !text) {
@@ -110,13 +107,6 @@ app.post("/api", async (req, res) => {
   }
 });
 
-
-// For local development
-if (process.env.NODE_ENV !== 'production') {
-  const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => {
-    console.log(`Server started on port ${PORT}`);
-  });
-}
-
+// Export the Express API
 module.exports = app;
+
