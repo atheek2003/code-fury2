@@ -1,3 +1,4 @@
+"use client";
 import React, { useMemo , useState, useEffect } from "react";
 import Image from "next/image";
 import ButtonPrimary from "./misc/ButtonPrimary";
